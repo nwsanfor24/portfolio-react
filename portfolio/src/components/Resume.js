@@ -113,7 +113,7 @@ const Resume = () => {
             <Box component="header" className={classes.mainContainer}>
                 <Typography variant="h4" align="center" className={classes.heading}>
                     Working Experience
-            </Typography>
+                </Typography>
                 <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2018
@@ -130,38 +130,38 @@ const Resume = () => {
                             assisting camera when needed and other production needs
                     </Typography>
                     </Box>
-                </Box>
-                <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                    2019
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2019
                 </Typography>
-                <Box component="div" className={classes.timeLineItem}>
-                    <Typography variant="h5" align="center" className={classes.subHeading}>
-                        Production Coordinator
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            Production Coordinator
                     </Typography>
-                    <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                        Very Cavallari, Racing Wives
+                        <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+                            Very Cavallari, Racing Wives
                     </Typography>
-                    <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-                        Responsible for making sure that every aspect of the shoot ran smoothly whether
-                        that was a coffee order, getting patrons and a club "released", handling on set logistics
-                        for travel and much more.
+                        <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
+                            Responsible for making sure that every aspect of the shoot ran smoothly whether
+                            that was a coffee order, getting patrons and a club "released", handling on set logistics
+                            for travel and much more.
                     </Typography>
-                </Box>
-                <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                    2020
+                    </Box>
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2020
                 </Typography>
-                <Box component="div" className={classes.timeLineItem}>
-                    <Typography variant="h5" align="center" className={classes.subHeading}>
-                        Full-Stack Bootcamp Student
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            Full-Stack Bootcamp Student
                     </Typography>
-                    <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                        UNH Coding Bootcamp
+                        <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+                            UNH Coding Bootcamp
                     </Typography>
-                    <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-                        Enrolled in a full-stack web development bootcamp to transition from on-set
-                        work to the tech industry. We were taught the basics of HTML and CSS as well as the
-                        MERN Stack, ReactJS, Bootstrap, Git, and much more.
+                        <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
+                            Enrolled in a full-stack web development bootcamp to transition from on-set
+                            work to the tech industry. We were taught the basics of HTML and CSS as well as the
+                            MERN Stack, ReactJS, Bootstrap, Git, and much more.
                     </Typography>
+                    </Box>
                 </Box>
             </Box>
         </>
