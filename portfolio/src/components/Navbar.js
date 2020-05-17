@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
     AppBar,
     Toolbar,
@@ -10,15 +10,17 @@ import {
     List,
     Typography,
     Box
-} from "@material-ui/core"
+} from "@material-ui/core";
 import {
     ArrowBack,
     AssignmentInd,
     Home,
     Apps,
     ContactMail
-} from "@material-ui/icons"
-import image from "../images/unnamed.jpg"
+} from "@material-ui/icons";
+import image from "../images/unnamed.jpg";
+import { makeStyles } from '@material-ui/core/styles';
+
 
 const Navbar = () => {
     return (
