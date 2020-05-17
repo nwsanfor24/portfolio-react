@@ -23,10 +23,12 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-
+import grey from '@material-ui/core/colors/grey';
 
 
 const drawerWidth = 240;
+
+const primary = grey[500];
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -112,7 +114,9 @@ export default function MiniDrawer() {
                     [classes.appBarShift]: open,
                 })}
             >
-                <Toolbar>
+                <Toolbar
+                    color={primary}
+                >
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
