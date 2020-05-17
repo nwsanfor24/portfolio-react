@@ -18,21 +18,27 @@ import {
     Apps,
     ContactMail
 } from "@material-ui/icons"
+import image from "../images/unnamed.jpg"
 
 const Navbar = () => {
     return (
+        <>
+        <Box component="div">
+        <Avatar src={image} alt="Nathan"/>
+        </Box>
         <Box component="nav">
-            <AppBar position="static" style={{background: "#222"}}>
+            <AppBar position="static" style={ {background: "#222" }}>
                 <Toolbar>
                     <IconButton>
-                        <ArrowBack style={{color: "tomato"}}/>
+                        <ArrowBack style={{ color: "tomato" }}/>
                     </IconButton>
-                    <Typography variant="h5" style={{color: "tan"}}>
+                    <Typography variant="h5" style={{ color: "tan" }}>
                         Portfolio
                     </Typography>
                 </Toolbar>
             </AppBar>
         </Box>
+        </>
     )
 }
 
