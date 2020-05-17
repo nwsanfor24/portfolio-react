@@ -1,11 +1,14 @@
 import React from 'react';
 import Home from './components/index';
+import CssBaseline from '@material-ui/core/CssBaseline';
+
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+  <>
+    <CssBaseline />
+    <Home />
+  </>
   );
 }
 
