@@ -1,10 +1,10 @@
 import React from 'react';
-// import Sidebar from './components/Sidebar';
-// import Main from './components/Main';
+import Home from './components/index';
 
 function App() {
   return (
     <div className="App">
+      <Home />
     </div>
   );
 }
