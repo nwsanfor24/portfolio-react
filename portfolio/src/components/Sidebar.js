@@ -15,8 +15,16 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
+import HomeIcon from '@material-ui/icons/Home';
 import MailIcon from '@material-ui/icons/Mail';
+import InfoIcon from '@material-ui/icons/Info';
+import DescriptionIcon from '@material-ui/icons/Description';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
+
 
 const drawerWidth = 240;
 
@@ -117,7 +125,7 @@ export default function MiniDrawer() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap>
-                        Mini Variant drawer
+                        Nathan Sanford Portfolio
                     </Typography>
                 </Toolbar>
             </AppBar>
@@ -141,18 +149,58 @@ export default function MiniDrawer() {
                 </div>
                 <Divider />
                 <List>
-                    {['Introduction', 'About', 'Resume'].map((text, index) => (
+                    {['Introduction'].map((text, index) => (
                         <ListItem button key={text}>
-                            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+                            <ListItemIcon>{index % 1 === 0 ? <HomeIcon /> : <HomeIcon />}</ListItemIcon>
+                            <ListItemText primary={text} />
+                        </ListItem>
+                    ))}
+                </List>
+                <List>
+                    {['About'].map((text, index) => (
+                        <ListItem button key={text}>
+                            <ListItemIcon>{index % 1 === 0 ? <InfoIcon /> : <InfoIcon />}</ListItemIcon>
+                            <ListItemText primary={text} />
+                        </ListItem>
+                    ))}
+                </List>
+                <List>
+                    {['Resume'].map((text, index) => (
+                        <ListItem button key={text}>
+                            <ListItemIcon>{index % 1 === 0 ? <DescriptionIcon /> : <DescriptionIcon />}</ListItemIcon>
                             <ListItemText primary={text} />
                         </ListItem>
                     ))}
                 </List>
                 <Divider />
                 <List>
-                    {['Facebook', 'Instagram', 'LinkedIn', 'GitHub'].map((text, index) => (
+                    {['Facebook'].map((text, index) => (
                         <ListItem button key={text}>
-                            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+                            <ListItemIcon>{index % 2 === 0 ? <FacebookIcon /> : <FacebookIcon />}</ListItemIcon>
+                            <ListItemText primary={text} />
+                        </ListItem>
+                    ))}
+                </List>
+                <List>
+                    {['Instagram'].map((text, index) => (
+                        <ListItem button key={text}>
+                            <ListItemIcon>{index % 1 === 0 ? <InstagramIcon /> : <InstagramIcon />}</ListItemIcon>
+                            <ListItemText primary={text} />
+                        </ListItem>
+                    ))}
+                </List>
+                <List>
+                    {['LinkedIn'].map((text, index) => (
+                        <ListItem button key={text}>
+                            <ListItemIcon>{index % 1 === 0 ? <LinkedInIcon /> : <LinkedInIcon />}</ListItemIcon>
+                            <ListItemText primary={text} />
+                        </ListItem>
+                    ))}
+                </List>
+                <List>
+                    {['Github'].map((text, index) => (
+                        <ListItem button key={text}>
+                            <ListItemIcon>{index % 1 === 0 ? <GitHubIcon /> : <GitHubIcon />}</ListItemIcon>
                             <ListItemText primary={text} />
                         </ListItem>
                     ))}
