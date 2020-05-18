@@ -102,7 +102,7 @@ const Navbar = () => {
                             <ArrowBack style={{ color: "tomato" }} />
                         </IconButton>
                         <Typography variant="h5" style={{ color: "tan" }}>
-                            Portfolio
+                            Nathan Sanford Website
                     </Typography>
                     <MobileRightMenuSlider
                         anchor="left"
