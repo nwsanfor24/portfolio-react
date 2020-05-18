@@ -46,6 +46,7 @@ const Contacts = () => {
 
     return (
         <Box component="div">
+            <Navbar />
             <Grid container justify="center">
                 <Box component="form" className={classes.form}>
                     <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase"}}>
