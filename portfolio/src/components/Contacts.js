@@ -6,9 +6,15 @@ import Navbar from "./Navbar";
 
 const Contacts = () => {
     return (
-        <div>
-            This is the contacts page
-        </div>
+        <Box component="div">
+            <Grid container justify="center">
+                <Box component="form">
+                    <Typography variant="h5">
+                        Hire or Contact Me...
+                    </Typography>
+                </Box>
+            </Grid>
+        </Box>
     );
 };
 
