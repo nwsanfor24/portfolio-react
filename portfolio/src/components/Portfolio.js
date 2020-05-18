@@ -105,10 +105,10 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
-                                Share
+                            <Button size="small" color="primary" onClick={()=> window.open("https://github.com/nwsanfor24/holiday-meal-planner", "_blank")}>
+                                Source
                                 </Button>
-                            <Button size="small" color="primary">
+                            <Button size="small" color="primary" onClick={()=> window.open("https://nwsanfor24.github.io/holiday-meal-planner//", "_blank")}>
                                 Live Demo
                                 </Button>
                         </CardActions>
@@ -136,10 +136,10 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
-                                Share
+                            <Button size="small" color="primary" onClick={()=> window.open("https://github.com/nwsanfor24/project-2", "_blank")}>
+                                Source
                                 </Button>
-                            <Button size="small" color="primary">
+                            <Button size="small" color="primary" onClick={()=> window.open("https://nameless-earth-27554.herokuapp.com/", "_blank")}>
                                 Live Demo
                                 </Button>
                         </CardActions>
@@ -168,9 +168,9 @@ const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                                Share
+                                Source
                                 </Button>
-                            <Button size="small" color="primary">
+                            <Button size="small" color="primary" onClick={()=> window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank")}>
                                 Live Demo
                                 </Button>
                         </CardActions>
