@@ -8,6 +8,7 @@ import {
 } from "@material-ui/core";
 import Typed from "react-typed";
 import avatar from "../images/unnamed.jpg";
+import Footer from "./Footer";
 
 //CSS Styles
 const useStyles = makeStyles(theme => ({
@@ -17,10 +18,10 @@ const useStyles = makeStyles(theme => ({
         margin: theme.spacing(1)
     },
     title: {
-        color: "black"
+        color: "white"
     },
     subTitle: {
-        color: "black",
+        color: "white",
         marginBottom: "3rem"
     },
     typedContainer: {
@@ -56,6 +57,7 @@ const Header = () => {
                     loop
                 />
             </Typography>
+            <Footer />
         </Box>
     )
 };
