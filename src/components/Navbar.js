@@ -16,12 +16,12 @@ import {
     Box
 } from "@material-ui/core";
 import {
-    ArrowBack,
     AssignmentInd,
     Home,
     Apps,
     ContactMail
 } from "@material-ui/icons";
+import MenuIcon from '@material-ui/icons/Menu'; 
 import image from "../images/unnamed.jpg";
 
 // CSS Styles
@@ -99,7 +99,7 @@ const Navbar = () => {
                 <AppBar position="static" style={{ background: "#222" }}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider("right", true)}>
-                            <ArrowBack style={{ color: "tomato" }} />
+                            <MenuIcon style={{ color: "tomato" }} />
                         </IconButton>
                         <Typography variant="h5" style={{ color: "tan" }}>
                             Nathan Sanford Website
