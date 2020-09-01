@@ -50,7 +50,7 @@ const Contacts = () => {
             <Grid container justify="center">
                 <Box component="form" className={classes.form}>
                     <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase"}}>
-                        Hire or Contact Me...
+                        Contact Me...
                     </Typography>
                     <InputField
                         fullWidth={true}
