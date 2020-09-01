@@ -3,9 +3,6 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Particles from 'react-particles-js';
 import {makeStyles} from "@material-ui/styles";
-import Portfolio from './Portfolio';
-import Contacts from './Contacts';
-import Resume from './Resume';
 
 const useStyles = makeStyles({
     particlesCanva: {
@@ -62,9 +59,6 @@ const Home = () => {
                     }
                 }}
             />
-            <Portfolio />
-            <Resume />
-            <Contacts />
         </>
     )
 }
